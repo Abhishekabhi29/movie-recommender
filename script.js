@@ -7,7 +7,7 @@ recommendBtn.addEventListener('click', async () => {
     const language = document.getElementById('language').value;
     const region = document.getElementById('region').value;
 
-    const apiKey = '6793902d2cc8a93ea1a7a06361730ccd'; // Replace with your actual API key
+    const apiKey = '6793902d2cc8a93ea1a7a06361730ccd';
     let apiUrl = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&with_genres=${genre}&language=${language}&region=${region}`;
 
     if (mood === 'happy') {
