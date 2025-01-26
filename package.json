@@ -8,8 +8,8 @@
         "build": "vite build",
         "preview": "vite preview"
     },
-    "devDependencies": {
-        "@vitejs/plugin-react": "^4.3.4",
-        "vite": "^4.2.0"
-    }
+"devDependencies": {
+  "vite": "^4.2.0",
+  "@vitejs/plugin-react": "^4.0.0"
+}
 }

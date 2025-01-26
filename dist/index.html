@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/index-141f79dd.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="material-icons">movie</span> Movie Recommender</h1>
+        <div class="input-section">
+            <div class="input-group">
+                <label for="genre"><span class="material-icons">category</span> Genre:</label>
+                <select id="genre">
+                    <option value="28">Action</option>
+                    <option value="12">Adventure</option>
+                    <option value="16">Animation</option>
+                    <option value="35">Comedy</option>
+                    <option value="80">Crime</option>
+                    <option value="99">Documentary</option>
+                    <option value="18">Drama</option>
+                    <option value="10751">Family</option>
+                    <option value="14">Fantasy</option>
+                    <option value="36">History</option>
+                    <option value="27">Horror</option>
+                    <option value="10402">Music</option>
+                    <option value="9648">Mystery</option>
+                    <option value="10749">Romance</option>
+                    <option value="878">Science Fiction</option>
+                    <option value="10770">TV Movie</option>
+                    <option value="53">Thriller</option>
+                    <option value="10752">War</option>
+                    <option value="37">Western</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="mood"><span class="material-icons">mood</span> Mood:</label>
+                <select id="mood">
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="exciting">Exciting</option>
+                    <option value="relaxing">Relaxing</option>
+                    <option value="thrilling">Thrilling</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="language"><span class="material-icons">language</span> Language:</label>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="ja">Japanese</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="region"><span class="material-icons">public</span> Region:</label>
+                <select id="region">
+                    <option value="IN">India</option>
+                    <option value="US">United States</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="CA">Canada</option>
+                    <option value="AU">Australia</option>
+                    <option value="JP">Japan</option>
+                </select>
+            </div>
+            <button id="recommendBtn"><span class="material-icons">search</span> Get Recommendations</button>
+        </div>
+        <div id="recommendations" class="recommendations-section">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
