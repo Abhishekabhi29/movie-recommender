@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
       plugins: [react()],
       server: {
         host: '0.0.0.0',
-        allowedHosts: ["vie-recommender-vxfg.onrender.com"]
+        allowedHosts: ["movie-recommender-vxfg.onrender.com"]
       }
     })
